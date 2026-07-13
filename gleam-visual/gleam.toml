@@ -4,4 +4,3 @@ target = "javascript"
 
 [dependencies]
 gleam_stdlib = ">= 0.38.0"
-gleam_json = ">= 2.0.0"
