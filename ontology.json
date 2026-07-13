@@ -1,0 +1,1382 @@
+{
+  "meta": {
+    "domains": [
+      "software",
+      "architecture",
+      "philosophy"
+    ],
+    "count": 108
+  },
+  "concepts": [
+    {
+      "id": 1,
+      "domain": "software",
+      "key": "agile",
+      "name_ja": "アジャイル",
+      "name_en": "Agile",
+      "description": "要求の変化に応じて反復的に開発する手法",
+      "layer": 3,
+      "source": "Agile Manifesto 2001"
+    },
+    {
+      "id": 2,
+      "domain": "software",
+      "key": "waterfall",
+      "name_ja": "ウォーターフォール",
+      "name_en": "Waterfall",
+      "description": "要件→設計→実装→検証の直線的プロセス",
+      "layer": 3,
+      "source": "Royce 1970"
+    },
+    {
+      "id": 3,
+      "domain": "software",
+      "key": "scrum",
+      "name_ja": "スクラム",
+      "name_en": "Scrum",
+      "description": "小さなチームによるイテレーティブな開発フレームワーク",
+      "layer": 3,
+      "source": "Sutherland & Schwaber"
+    },
+    {
+      "id": 4,
+      "domain": "software",
+      "key": "iteration",
+      "name_ja": "イテレーション",
+      "name_en": "Iteration",
+      "description": "短いサイクルでの開発と改善の反復",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 5,
+      "domain": "software",
+      "key": "continuous_deployment",
+      "name_ja": "継続的デプロイ",
+      "name_en": "Continuous Deployment",
+      "description": "コード変更を自動で本番環境へ反映する実践",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 6,
+      "domain": "software",
+      "key": "refactoring",
+      "name_ja": "リファクタリング",
+      "name_en": "Refactoring",
+      "description": "外部挙動を変えずに内部構造を改善する作業",
+      "layer": 3,
+      "source": "Fowler 1999"
+    },
+    {
+      "id": 7,
+      "domain": "software",
+      "key": "pull_request",
+      "name_ja": "プルリクエスト",
+      "name_en": "Pull Request",
+      "description": "コード変更のレビューと統合を依頼する仕組み",
+      "layer": 3,
+      "source": "GitHub"
+    },
+    {
+      "id": 8,
+      "domain": "software",
+      "key": "code_review",
+      "name_ja": "コードレビュー",
+      "name_en": "Code Review",
+      "description": "他者がコードを検査して品質を担保するプロセス",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 9,
+      "domain": "software",
+      "key": "open_source",
+      "name_ja": "オープンソース",
+      "name_en": "Open Source",
+      "description": "ソースコードを公開し誰でも改良できるライセンス形態",
+      "layer": 4,
+      "source": "OSI"
+    },
+    {
+      "id": 10,
+      "domain": "software",
+      "key": "cathedral_and_bazaar",
+      "name_ja": "伽藍とバザール",
+      "name_en": "The Cathedral and the Bazaar",
+      "description": "秘匿的開発と公開的開発の対比",
+      "layer": 4,
+      "source": "Raymond 1997"
+    },
+    {
+      "id": 11,
+      "domain": "software",
+      "key": "design_pattern",
+      "name_ja": "デザインパターン",
+      "name_en": "Design Pattern",
+      "description": "再利用可能なソフトウェア設計の解決策",
+      "layer": 3,
+      "source": "GoF 1994"
+    },
+    {
+      "id": 12,
+      "domain": "software",
+      "key": "software_crisis",
+      "name_ja": "ソフトウェア危機",
+      "name_en": "Software Crisis",
+      "description": "1960年代のソフトウェア生産性・品質の問題",
+      "layer": 5,
+      "source": "NATO 1968"
+    },
+    {
+      "id": 13,
+      "domain": "software",
+      "key": "brooks_law",
+      "name_ja": "ブルックスの法則",
+      "name_en": "Brooks's Law",
+      "description": "遅れたプロジェクトに人を追加するとさらに遅れる",
+      "layer": 5,
+      "source": "Brooks 1975"
+    },
+    {
+      "id": 14,
+      "domain": "software",
+      "key": "technical_debt",
+      "name_ja": "技術的負債",
+      "name_en": "Technical Debt",
+      "description": "短期的な代償として後回しにした設計コスト",
+      "layer": 3,
+      "source": "Cunningham"
+    },
+    {
+      "id": 15,
+      "domain": "software",
+      "key": "dogfooding",
+      "name_ja": "ドッグフーディング",
+      "name_en": "Dogfooding",
+      "description": "自社製品を自ら使用して品質確認する",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 16,
+      "domain": "software",
+      "key": "yak_shaving",
+      "name_ja": "ヤク剃り",
+      "name_en": "Yak Shaving",
+      "description": "本来の目的からどんどん脱線する作業の連鎖",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 17,
+      "domain": "software",
+      "key": "rubber_duck_debugging",
+      "name_ja": "ラバーダックデバッグ",
+      "name_en": "Rubber Duck Debugging",
+      "description": "無生物に説明することでバグを発見する技法",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 18,
+      "domain": "software",
+      "key": "git",
+      "name_ja": "Git",
+      "name_en": "Git",
+      "description": "分散型バージョン管理システム",
+      "layer": 3,
+      "source": "Torvalds 2005"
+    },
+    {
+      "id": 19,
+      "domain": "software",
+      "key": "version_control",
+      "name_ja": "バージョン管理",
+      "name_en": "Version Control",
+      "description": "ファイルの変更履歴を管理するシステム",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 20,
+      "domain": "software",
+      "key": "merge_conflict",
+      "name_ja": "マージコンフリクト",
+      "name_en": "Merge Conflict",
+      "description": "複数の変更が衝突して自動統合できない状態",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 21,
+      "domain": "software",
+      "key": "dependency_hell",
+      "name_ja": "依存地獄",
+      "name_en": "Dependency Hell",
+      "description": "ライブラリ間の依存関係が複雑化して管理困難になる状態",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 22,
+      "domain": "software",
+      "key": "api",
+      "name_ja": "API",
+      "name_en": "API",
+      "description": "アプリケーション間のインターフェース",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 23,
+      "domain": "software",
+      "key": "microservices",
+      "name_ja": "マイクロサービス",
+      "name_en": "Microservices",
+      "description": "小さな独立したサービスの集合によるアーキテクチャ",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 24,
+      "domain": "software",
+      "key": "monolith",
+      "name_ja": "モノリス",
+      "name_en": "Monolith",
+      "description": "単一の大きなコードベースによるアーキテクチャ",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 25,
+      "domain": "software",
+      "key": "container",
+      "name_ja": "コンテナ",
+      "name_en": "Container",
+      "description": "アプリと実行環境をパッケージングする技術",
+      "layer": 3,
+      "source": "Docker"
+    },
+    {
+      "id": 26,
+      "domain": "software",
+      "key": "orchestration",
+      "name_ja": "オーケストレーション",
+      "name_en": "Orchestration",
+      "description": "複数コンテナの運用を自動化・管理する",
+      "layer": 3,
+      "source": "Kubernetes"
+    },
+    {
+      "id": 27,
+      "domain": "software",
+      "key": "devops",
+      "name_ja": "DevOps",
+      "name_en": "DevOps",
+      "description": "開発と運用の統合文化および実践",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 28,
+      "domain": "software",
+      "key": "tdd",
+      "name_ja": "テスト駆動開発",
+      "name_en": "Test-Driven Development",
+      "description": "テストを先に書く開発手法",
+      "layer": 3,
+      "source": "Beck"
+    },
+    {
+      "id": 29,
+      "domain": "software",
+      "key": "regression_test",
+      "name_ja": "回帰テスト",
+      "name_en": "Regression Test",
+      "description": "変更後に既存機能が破壊されていないか確認するテスト",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 30,
+      "domain": "software",
+      "key": "lint",
+      "name_ja": "Lint",
+      "name_en": "Lint",
+      "description": "コードの静的解析による品質チェック",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 31,
+      "domain": "software",
+      "key": "build",
+      "name_ja": "ビルド",
+      "name_en": "Build",
+      "description": "ソースコードから実行可能な成果物を生成する過程",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 32,
+      "domain": "software",
+      "key": "package_manager",
+      "name_ja": "パッケージマネージャ",
+      "name_en": "Package Manager",
+      "description": "ライブラリの導入・更新・依存解決を行うツール",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 33,
+      "domain": "software",
+      "key": "legacy_code",
+      "name_ja": "レガシーコード",
+      "name_en": "Legacy Code",
+      "description": "古くて保守が困難な既存コード",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 34,
+      "domain": "software",
+      "key": "abstraction",
+      "name_ja": "抽象化",
+      "name_en": "Abstraction",
+      "description": "複雑性を隠蔽して本質に迫る操作",
+      "layer": 2,
+      "source": ""
+    },
+    {
+      "id": 35,
+      "domain": "software",
+      "key": "interface",
+      "name_ja": "インターフェース",
+      "name_en": "Interface",
+      "description": "異なるシステム間の接続規約",
+      "layer": 2,
+      "source": ""
+    },
+    {
+      "id": 36,
+      "domain": "software",
+      "key": "state_machine",
+      "name_ja": "状態機械",
+      "name_en": "State Machine",
+      "description": "状態と遷移で振る舞いをモデル化する",
+      "layer": 2,
+      "source": ""
+    },
+    {
+      "id": 37,
+      "domain": "architecture",
+      "key": "pattern_language",
+      "name_ja": "パタン・ランゲージ",
+      "name_en": "Pattern Language",
+      "description": "建築における再現性ある解決策の言語化",
+      "layer": 4,
+      "source": "Alexander 1977"
+    },
+    {
+      "id": 38,
+      "domain": "architecture",
+      "key": "form_follows_function",
+      "name_ja": "形式は機能に従う",
+      "name_en": "Form Follows Function",
+      "description": "設計の形態は目的に応じて決まる",
+      "layer": 4,
+      "source": "Sullivan"
+    },
+    {
+      "id": 39,
+      "domain": "architecture",
+      "key": "less_is_more",
+      "name_ja": "少ないほど豊か",
+      "name_en": "Less is More",
+      "description": "簡潔さが本質を際立たせる",
+      "layer": 4,
+      "source": "Mies van der Rohe"
+    },
+    {
+      "id": 40,
+      "domain": "architecture",
+      "key": "brutalism",
+      "name_ja": "ブルータリズム",
+      "name_en": "Brutalism",
+      "description": "素朴なコンクリート表現を特徴とする建築様式",
+      "layer": 4,
+      "source": ""
+    },
+    {
+      "id": 41,
+      "domain": "architecture",
+      "key": "deconstructivism",
+      "name_ja": "デコンストラクティビズム",
+      "name_en": "Deconstructivism",
+      "description": "非線形・断片的なフォルムの建築動向",
+      "layer": 4,
+      "source": ""
+    },
+    {
+      "id": 42,
+      "domain": "architecture",
+      "key": "metabolism",
+      "name_ja": "メタボリズム",
+      "name_en": "Metabolism",
+      "description": "成長と変化を前提とした日本の建築運動",
+      "layer": 4,
+      "source": "Kurokawa, Kikutake"
+    },
+    {
+      "id": 43,
+      "domain": "architecture",
+      "key": "critical_regionalism",
+      "name_ja": "批判的地域主義",
+      "name_en": "Critical Regionalism",
+      "description": "グローバル普遍性と地域的文脈の融合",
+      "layer": 4,
+      "source": "Frampton"
+    },
+    {
+      "id": 44,
+      "domain": "architecture",
+      "key": "organic_architecture",
+      "name_ja": "オーガニック建築",
+      "name_en": "Organic Architecture",
+      "description": "自然と一体化する建築思想",
+      "layer": 4,
+      "source": "Wright"
+    },
+    {
+      "id": 45,
+      "domain": "architecture",
+      "key": "vernacular_architecture",
+      "name_ja": "在来建築",
+      "name_en": "Vernacular Architecture",
+      "description": "地域の素材と技術に根ざした建築",
+      "layer": 4,
+      "source": ""
+    },
+    {
+      "id": 46,
+      "domain": "architecture",
+      "key": "spatial_sequence",
+      "name_ja": "空間連続",
+      "name_en": "Spatial Sequence",
+      "description": "連続する空間体験の設計",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 47,
+      "domain": "architecture",
+      "key": "circulation",
+      "name_ja": "動線",
+      "name_en": "Circulation",
+      "description": "建物内の移動経路の計画",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 48,
+      "domain": "architecture",
+      "key": "program",
+      "name_ja": "プログラム",
+      "name_en": "Program",
+      "description": "建築における用途・機能・行為の計画",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 49,
+      "domain": "architecture",
+      "key": "plan",
+      "name_ja": "平面図",
+      "name_en": "Plan",
+      "description": "水平断面による建築の配置表現",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 50,
+      "domain": "architecture",
+      "key": "section",
+      "name_ja": "断面図",
+      "name_en": "Section",
+      "description": "垂直断面による空間関係の表現",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 51,
+      "domain": "architecture",
+      "key": "elevation",
+      "name_ja": "立面図",
+      "name_en": "Elevation",
+      "description": "建物外壁の正投影図",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 52,
+      "domain": "architecture",
+      "key": "massing",
+      "name_ja": "立体構成",
+      "name_en": "Massing",
+      "description": "建築物の三次元的な塊の構成",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 53,
+      "domain": "architecture",
+      "key": "materiality",
+      "name_ja": "マテリアリティ",
+      "name_en": "Materiality",
+      "description": "素材の質感・表現における重視",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 54,
+      "domain": "architecture",
+      "key": "tectonics",
+      "name_ja": "テクトニクス",
+      "name_en": "Tectonics",
+      "description": "構造と構成の芸術的表現",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 55,
+      "domain": "architecture",
+      "key": "joint",
+      "name_ja": "接合",
+      "name_en": "Joint",
+      "description": "部材同士の接続部位の設計",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 56,
+      "domain": "architecture",
+      "key": "proportion",
+      "name_ja": "プロポーション",
+      "name_en": "Proportion",
+      "description": "部分と全体の数的関係",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 57,
+      "domain": "architecture",
+      "key": "scale",
+      "name_ja": "スケール",
+      "name_en": "Scale",
+      "description": "物体と人間の相対的な大きさ関係",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 58,
+      "domain": "architecture",
+      "key": "context",
+      "name_ja": "文脈",
+      "name_en": "Context",
+      "description": "建築を取り巻く環境・文化・社会的条件",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 59,
+      "domain": "architecture",
+      "key": "genius_loci",
+      "name_ja": "ゲニウス・ロキ",
+      "name_en": "Genius Loci",
+      "description": "場の固有の精神や表象",
+      "layer": 3,
+      "source": "Norberg-Schulz"
+    },
+    {
+      "id": 60,
+      "domain": "architecture",
+      "key": "adaptive_reuse",
+      "name_ja": "適応的再利用",
+      "name_en": "Adaptive Reuse",
+      "description": "既存建築を新たな用途へ適応させる",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 61,
+      "domain": "architecture",
+      "key": "renovation",
+      "name_ja": "改修",
+      "name_en": "Renovation",
+      "description": "既存建築の修復・更新",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 62,
+      "domain": "architecture",
+      "key": "self_build",
+      "name_ja": "自力建築",
+      "name_en": "Self-Build",
+      "description": "設計者自身が施工する建築生産形態",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 63,
+      "domain": "architecture",
+      "key": "hand_mixed_concrete",
+      "name_ja": "手練りコンクリート",
+      "name_en": "Hand-Mixed Concrete",
+      "description": "現場で手作業で練るコンクリート技術",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 64,
+      "domain": "architecture",
+      "key": "incremental_housing",
+      "name_ja": "漸進的住宅",
+      "name_en": "Incremental Housing",
+      "description": "住戸の段階的な拡張・改築を前提とする住宅",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 65,
+      "domain": "architecture",
+      "key": "participatory_design",
+      "name_ja": "参加型設計",
+      "name_en": "Participatory Design",
+      "description": "ユーザーや地域住民が設計プロセスに参加",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 66,
+      "domain": "architecture",
+      "key": "informal_settlement",
+      "name_ja": "非公式定住地",
+      "name_en": "Informal Settlement",
+      "description": "法的・制度的規制外に形成される集住形態",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 67,
+      "domain": "architecture",
+      "key": "feng_shui",
+      "name_ja": "風水",
+      "name_en": "Feng Shui",
+      "description": "環境と気の流れを調整する中国伝統的空間思想",
+      "layer": 5,
+      "source": ""
+    },
+    {
+      "id": 68,
+      "domain": "architecture",
+      "key": "vastu_shastra",
+      "name_ja": "ヴァーストゥ・シャーストラ",
+      "name_en": "Vastu Shastra",
+      "description": "古代インドの建築・空間の法則書",
+      "layer": 5,
+      "source": ""
+    },
+    {
+      "id": 69,
+      "domain": "architecture",
+      "key": "nakagin_capsule_tower",
+      "name_ja": "中銀カプセルタワー",
+      "name_en": "Nakagin Capsule Tower",
+      "description": "黒川紀章によるカプセル型集合住宅",
+      "layer": 4,
+      "source": ""
+    },
+    {
+      "id": 70,
+      "domain": "architecture",
+      "key": "ants_masutorinburu",
+      "name_ja": "蟻鱒鳶ル",
+      "name_en": "Ants Masutorinburu",
+      "description": "岡啓輔による東京・三田の自力建築",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 71,
+      "domain": "architecture",
+      "key": "autonomous_architecture",
+      "name_ja": "自律的建築",
+      "name_en": "Autonomous Architecture",
+      "description": "外部システムに依存しない自己完足的建築",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 72,
+      "domain": "architecture",
+      "key": "construction_management",
+      "name_ja": "施工管理",
+      "name_en": "Construction Management",
+      "description": "建設工程の計画・監督・調整",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 73,
+      "domain": "philosophy",
+      "key": "deconstruction",
+      "name_ja": "脱構築",
+      "name_en": "Deconstruction",
+      "description": "テクストの固定された意味を解体する戦略",
+      "layer": 4,
+      "source": "Derrida"
+    },
+    {
+      "id": 74,
+      "domain": "philosophy",
+      "key": "differance",
+      "name_ja": "ディフェランス",
+      "name_en": "Différance",
+      "description": "意味の無限に後退する差異化作用",
+      "layer": 4,
+      "source": "Derrida"
+    },
+    {
+      "id": 75,
+      "domain": "philosophy",
+      "key": "logocentrism",
+      "name_ja": "ロゴセントリズム",
+      "name_en": "Logocentrism",
+      "description": "音声と理性を中心に置く西洋形而上学の傾向",
+      "layer": 4,
+      "source": "Derrida"
+    },
+    {
+      "id": 76,
+      "domain": "philosophy",
+      "key": "trace",
+      "name_ja": "痕跡",
+      "name_en": "Trace",
+      "description": "存在の根底にある不在の印",
+      "layer": 4,
+      "source": "Derrida"
+    },
+    {
+      "id": 77,
+      "domain": "philosophy",
+      "key": "supplement",
+      "name_ja": "補充",
+      "name_en": "Supplement",
+      "description": "不足を埋めるものでありながら元を相対化するもの",
+      "layer": 4,
+      "source": "Derrida"
+    },
+    {
+      "id": 78,
+      "domain": "philosophy",
+      "key": "arche_writing",
+      "name_ja": "原書",
+      "name_en": "Arche-writing",
+      "description": "音声を含むすべての記号活動の根源的基底",
+      "layer": 4,
+      "source": "Derrida"
+    },
+    {
+      "id": 79,
+      "domain": "philosophy",
+      "key": "postal",
+      "name_ja": "郵便的",
+      "name_en": "The Postal",
+      "description": "メッセージの誤配と宛先の不確定性",
+      "layer": 4,
+      "source": "Derrida / Azuma"
+    },
+    {
+      "id": 80,
+      "domain": "philosophy",
+      "key": "animalization",
+      "name_ja": "動物化",
+      "name_en": "Animalization",
+      "description": "ポストモダンにおける消費主体の変容",
+      "layer": 4,
+      "source": "Azuma"
+    },
+    {
+      "id": 81,
+      "domain": "philosophy",
+      "key": "database_consumption",
+      "name_ja": "データベース消費",
+      "name_en": "Database Consumption",
+      "description": "大きな物語に代わるデータベースとしての作品消費",
+      "layer": 4,
+      "source": "Azuma"
+    },
+    {
+      "id": 82,
+      "domain": "philosophy",
+      "key": "grand_narrative",
+      "name_ja": "大きな物語",
+      "name_en": "Grand Narrative",
+      "description": "社会全体を説明する統一的物語",
+      "layer": 4,
+      "source": "Lyotard"
+    },
+    {
+      "id": 83,
+      "domain": "philosophy",
+      "key": "general_will_2",
+      "name_ja": "一般意志2.0",
+      "name_en": "General Will 2.0",
+      "description": "SNS時代の集合的意志のデータベース化",
+      "layer": 4,
+      "source": "Azuma"
+    },
+    {
+      "id": 84,
+      "domain": "philosophy",
+      "key": "hermeneutics",
+      "name_ja": "解釈学",
+      "name_en": "Hermeneutics",
+      "description": "テクスト理解の方法と理論",
+      "layer": 4,
+      "source": "Gadamer"
+    },
+    {
+      "id": 85,
+      "domain": "philosophy",
+      "key": "phenomenology",
+      "name_ja": "現象学",
+      "name_en": "Phenomenology",
+      "description": "意識の中での現象のあり方を記述する哲学",
+      "layer": 4,
+      "source": "Husserl"
+    },
+    {
+      "id": 86,
+      "domain": "philosophy",
+      "key": "dasein",
+      "name_ja": "此在",
+      "name_en": "Dasein",
+      "description": "自己の存在を問う存在者",
+      "layer": 4,
+      "source": "Heidegger"
+    },
+    {
+      "id": 87,
+      "domain": "philosophy",
+      "key": "being_in_the_world",
+      "name_ja": "世界内存在",
+      "name_en": "Being-in-the-World",
+      "description": "人間が世界と不可分に結びついている存在構造",
+      "layer": 4,
+      "source": "Heidegger"
+    },
+    {
+      "id": 88,
+      "domain": "philosophy",
+      "key": "poiesis",
+      "name_ja": "ポイエーシス",
+      "name_en": "Poiesis",
+      "description": "自然に似せて何かを生み出す活動全体",
+      "layer": 4,
+      "source": "Aristotle / Heidegger"
+    },
+    {
+      "id": 89,
+      "domain": "philosophy",
+      "key": "techne",
+      "name_ja": "テクネー",
+      "name_en": "Techne",
+      "description": "知識に裏打ちされた制作技術",
+      "layer": 4,
+      "source": "Aristotle"
+    },
+    {
+      "id": 90,
+      "domain": "philosophy",
+      "key": "episteme",
+      "name_ja": "エピステーメー",
+      "name_en": "Episteme",
+      "description": "普遍的・証明的な知識",
+      "layer": 4,
+      "source": "Aristotle / Foucault"
+    },
+    {
+      "id": 91,
+      "domain": "philosophy",
+      "key": "phronesis",
+      "name_ja": "フロネーシス",
+      "name_en": "Phronesis",
+      "description": "実践的知恵・熟慮",
+      "layer": 4,
+      "source": "Aristotle"
+    },
+    {
+      "id": 92,
+      "domain": "philosophy",
+      "key": "monadology",
+      "name_ja": "単子論",
+      "name_en": "Monadology",
+      "description": "個の実体としての単子が調和する宇宙観",
+      "layer": 4,
+      "source": "Leibniz"
+    },
+    {
+      "id": 93,
+      "domain": "philosophy",
+      "key": "rhizome",
+      "name_ja": "リゾーム",
+      "name_en": "Rhizome",
+      "description": "中心・階層を持たないネットワーク的モデル",
+      "layer": 4,
+      "source": "Deleuze & Guattari"
+    },
+    {
+      "id": 94,
+      "domain": "philosophy",
+      "key": "deterritorialization",
+      "name_ja": "脱領域化",
+      "name_en": "Deterritorialization",
+      "description": "既存の領域・コードからの解放運動",
+      "layer": 4,
+      "source": "Deleuze & Guattari"
+    },
+    {
+      "id": 95,
+      "domain": "philosophy",
+      "key": "body_without_organs",
+      "name_ja": "脳肢体なき身体",
+      "name_en": "Body without Organs",
+      "description": "欲望の機械としての抽象的身体",
+      "layer": 4,
+      "source": "Deleuze & Guattari"
+    },
+    {
+      "id": 96,
+      "domain": "philosophy",
+      "key": "assemblage",
+      "name_ja": "アッサンブラージュ",
+      "name_en": "Assemblage",
+      "description": "異質な要素の機能的結合",
+      "layer": 4,
+      "source": "Deleuze"
+    },
+    {
+      "id": 97,
+      "domain": "philosophy",
+      "key": "simulacrum",
+      "name_ja": "シミュラークル",
+      "name_en": "Simulacrum",
+      "description": "原型を持たない模像・擬像",
+      "layer": 4,
+      "source": "Baudrillard"
+    },
+    {
+      "id": 98,
+      "domain": "philosophy",
+      "key": "hyperreality",
+      "name_ja": "ハイパーリアリティ",
+      "name_en": "Hyperreality",
+      "description": "現実と区別つかない模倣の領域",
+      "layer": 4,
+      "source": "Baudrillard"
+    },
+    {
+      "id": 99,
+      "domain": "philosophy",
+      "key": "panopticon",
+      "name_ja": "パノプティコン",
+      "name_en": "Panopticon",
+      "description": "常に見られている可能性による自己統制装置",
+      "layer": 4,
+      "source": "Foucault / Bentham"
+    },
+    {
+      "id": 100,
+      "domain": "philosophy",
+      "key": "power_knowledge",
+      "name_ja": "権力と知識",
+      "name_en": "Power/Knowledge",
+      "description": "権力と知識の相互生産関係",
+      "layer": 4,
+      "source": "Foucault"
+    },
+    {
+      "id": 101,
+      "domain": "philosophy",
+      "key": "biopolitics",
+      "name_ja": "バイオポリティクス",
+      "name_en": "Biopolitics",
+      "description": "人口・生命に作用する近代権力",
+      "layer": 4,
+      "source": "Foucault"
+    },
+    {
+      "id": 102,
+      "domain": "philosophy",
+      "key": "heterotopia",
+      "name_ja": "異托邦",
+      "name_en": "Heterotopia",
+      "description": "社会的空間の中の異質な位置",
+      "layer": 4,
+      "source": "Foucault"
+    },
+    {
+      "id": 103,
+      "domain": "philosophy",
+      "key": "discourse",
+      "name_ja": "ディスクール",
+      "name_en": "Discourse",
+      "description": "言語実践と知の体制を含む言説形成",
+      "layer": 4,
+      "source": "Foucault"
+    },
+    {
+      "id": 104,
+      "domain": "philosophy",
+      "key": "structuralism",
+      "name_ja": "構造主義",
+      "name_en": "Structuralism",
+      "description": "文化的現象の背後にある構造を重視",
+      "layer": 4,
+      "source": "Levi-Strauss, Saussure"
+    },
+    {
+      "id": 105,
+      "domain": "philosophy",
+      "key": "post_structuralism",
+      "name_ja": "ポスト構造主義",
+      "name_en": "Post-Structuralism",
+      "description": "構造の固定性と中心性を批判する思想",
+      "layer": 4,
+      "source": ""
+    },
+    {
+      "id": 106,
+      "domain": "philosophy",
+      "key": "genealogical_method",
+      "name_ja": "系譜学的方法",
+      "name_en": "Genealogical Method",
+      "description": "起源ではなく歴史的経緯と権力を追跡する方法",
+      "layer": 4,
+      "source": "Foucault / Nietzsche"
+    },
+    {
+      "id": 107,
+      "domain": "philosophy",
+      "key": "death_of_the_author",
+      "name_ja": "作者の死",
+      "name_en": "Death of the Author",
+      "description": "作者の意図からテクストを解放する",
+      "layer": 4,
+      "source": "Barthes"
+    },
+    {
+      "id": 108,
+      "domain": "philosophy",
+      "key": "intertextuality",
+      "name_ja": "インターテクスト性",
+      "name_en": "Intertextuality",
+      "description": "テクスト間の相互参照と網目構造",
+      "layer": 4,
+      "source": "Kristeva"
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "from_id": 12,
+      "to_id": 2,
+      "relation_type": "influence"
+    },
+    {
+      "id": 2,
+      "from_id": 2,
+      "to_id": 1,
+      "relation_type": "opposes"
+    },
+    {
+      "id": 3,
+      "from_id": 1,
+      "to_id": 3,
+      "relation_type": "implements"
+    },
+    {
+      "id": 4,
+      "from_id": 1,
+      "to_id": 4,
+      "relation_type": "implements"
+    },
+    {
+      "id": 5,
+      "from_id": 1,
+      "to_id": 5,
+      "relation_type": "implements"
+    },
+    {
+      "id": 6,
+      "from_id": 10,
+      "to_id": 9,
+      "relation_type": "influence"
+    },
+    {
+      "id": 7,
+      "from_id": 37,
+      "to_id": 11,
+      "relation_type": "analogy"
+    },
+    {
+      "id": 8,
+      "from_id": 7,
+      "to_id": 8,
+      "relation_type": "relates"
+    },
+    {
+      "id": 9,
+      "from_id": 18,
+      "to_id": 19,
+      "relation_type": "implements"
+    },
+    {
+      "id": 10,
+      "from_id": 20,
+      "to_id": 18,
+      "relation_type": "belongs_to"
+    },
+    {
+      "id": 11,
+      "from_id": 23,
+      "to_id": 24,
+      "relation_type": "opposes"
+    },
+    {
+      "id": 12,
+      "from_id": 25,
+      "to_id": 26,
+      "relation_type": "relates"
+    },
+    {
+      "id": 13,
+      "from_id": 27,
+      "to_id": 5,
+      "relation_type": "relates"
+    },
+    {
+      "id": 14,
+      "from_id": 28,
+      "to_id": 29,
+      "relation_type": "relates"
+    },
+    {
+      "id": 15,
+      "from_id": 21,
+      "to_id": 32,
+      "relation_type": "opposes"
+    },
+    {
+      "id": 16,
+      "from_id": 34,
+      "to_id": 35,
+      "relation_type": "relates"
+    },
+    {
+      "id": 17,
+      "from_id": 70,
+      "to_id": 5,
+      "relation_type": "analogy"
+    },
+    {
+      "id": 18,
+      "from_id": 70,
+      "to_id": 62,
+      "relation_type": "belongs_to"
+    },
+    {
+      "id": 19,
+      "from_id": 70,
+      "to_id": 63,
+      "relation_type": "belongs_to"
+    },
+    {
+      "id": 20,
+      "from_id": 37,
+      "to_id": 44,
+      "relation_type": "relates"
+    },
+    {
+      "id": 21,
+      "from_id": 38,
+      "to_id": 39,
+      "relation_type": "relates"
+    },
+    {
+      "id": 22,
+      "from_id": 40,
+      "to_id": 63,
+      "relation_type": "relates"
+    },
+    {
+      "id": 23,
+      "from_id": 41,
+      "to_id": 73,
+      "relation_type": "analogy"
+    },
+    {
+      "id": 24,
+      "from_id": 42,
+      "to_id": 64,
+      "relation_type": "relates"
+    },
+    {
+      "id": 25,
+      "from_id": 43,
+      "to_id": 45,
+      "relation_type": "relates"
+    },
+    {
+      "id": 26,
+      "from_id": 60,
+      "to_id": 61,
+      "relation_type": "relates"
+    },
+    {
+      "id": 27,
+      "from_id": 62,
+      "to_id": 65,
+      "relation_type": "relates"
+    },
+    {
+      "id": 28,
+      "from_id": 59,
+      "to_id": 58,
+      "relation_type": "relates"
+    },
+    {
+      "id": 29,
+      "from_id": 69,
+      "to_id": 42,
+      "relation_type": "belongs_to"
+    },
+    {
+      "id": 30,
+      "from_id": 73,
+      "to_id": 74,
+      "relation_type": "relates"
+    },
+    {
+      "id": 31,
+      "from_id": 73,
+      "to_id": 75,
+      "relation_type": "opposes"
+    },
+    {
+      "id": 32,
+      "from_id": 79,
+      "to_id": 76,
+      "relation_type": "relates"
+    },
+    {
+      "id": 33,
+      "from_id": 80,
+      "to_id": 81,
+      "relation_type": "relates"
+    },
+    {
+      "id": 34,
+      "from_id": 82,
+      "to_id": 81,
+      "relation_type": "opposes"
+    },
+    {
+      "id": 35,
+      "from_id": 83,
+      "to_id": 81,
+      "relation_type": "relates"
+    },
+    {
+      "id": 36,
+      "from_id": 85,
+      "to_id": 86,
+      "relation_type": "relates"
+    },
+    {
+      "id": 37,
+      "from_id": 86,
+      "to_id": 87,
+      "relation_type": "relates"
+    },
+    {
+      "id": 38,
+      "from_id": 88,
+      "to_id": 89,
+      "relation_type": "relates"
+    },
+    {
+      "id": 39,
+      "from_id": 89,
+      "to_id": 90,
+      "relation_type": "relates"
+    },
+    {
+      "id": 40,
+      "from_id": 90,
+      "to_id": 91,
+      "relation_type": "relates"
+    },
+    {
+      "id": 41,
+      "from_id": 93,
+      "to_id": 92,
+      "relation_type": "opposes"
+    },
+    {
+      "id": 42,
+      "from_id": 93,
+      "to_id": 94,
+      "relation_type": "relates"
+    },
+    {
+      "id": 43,
+      "from_id": 97,
+      "to_id": 98,
+      "relation_type": "relates"
+    },
+    {
+      "id": 44,
+      "from_id": 99,
+      "to_id": 101,
+      "relation_type": "relates"
+    },
+    {
+      "id": 45,
+      "from_id": 100,
+      "to_id": 103,
+      "relation_type": "relates"
+    },
+    {
+      "id": 46,
+      "from_id": 104,
+      "to_id": 105,
+      "relation_type": "opposes"
+    },
+    {
+      "id": 47,
+      "from_id": 104,
+      "to_id": 108,
+      "relation_type": "opposes"
+    },
+    {
+      "id": 48,
+      "from_id": 107,
+      "to_id": 108,
+      "relation_type": "relates"
+    }
+  ]
+}
