@@ -17,6 +17,7 @@ jobs:
       - uses: erlef/setup-beam@v1
         with:
           gleam-version: "1.5.1"
+          otp-version: "27.0"
       - run: cd gleam-visual && gleam build --target javascript
       - run: |
           mkdir -p dist/gleam
