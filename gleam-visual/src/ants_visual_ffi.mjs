@@ -13,10 +13,14 @@ export function render(gleam_list) {
     software:       [14,  165, 233], // cyan-500
     architecture:   [244, 63,  94],  // rose-500
     philosophy:     [168, 85,  247], // purple-500
-    cross_sa:       [6,   182, 212], // cyan-400  (soft-arch)
+    ecology:        [16,  185, 129], // emerald-500
+    cross_sa:       [6,   182, 212], // cyan-400   (soft-arch)
     cross_ap:       [217, 70,  239], // fuchsia-500 (arch-philo)
     cross_sp:       [99,  102, 241], // indigo-500  (soft-philo)
-    cross_all:      [250, 204, 21],  // yellow-400  (all three)
+    cross_se:       [20,  184, 166], // teal-500    (soft-eco)
+    cross_ae:       [234, 179, 8],   // amber-500   (arch-eco)
+    cross_pe:       [236, 72,  153], // pink-500    (philo-eco)
+    cross_multi:    [250, 204, 21],  // yellow-400  (3+ domains)
   };
 
   // ---- state initialisation: scattered ----
@@ -45,21 +49,28 @@ export function render(gleam_list) {
   let logLines = [];
 
   function edgeType(a, b) {
-    const ds = [a.domain, b.domain].sort();
-    if (ds[0] === ds[1]) return "affinity";
-    if (ds[0] === "architecture" && ds[1] === "philosophy") return "overlay";
-    if (ds[0] === "software"     && ds[1] === "architecture") return "fusion";
-    if (ds[0] === "philosophy"   && ds[1] === "software") return "appropriation";
+    const set = new Set([a.domain, b.domain]);
+    if (set.size === 1) return "affinity";
+    const ds = Array.from(set).sort();
+    if (ds.includes("software") && ds.includes("architecture")) return "fusion";
+    if (ds.includes("architecture") && ds.includes("philosophy")) return "overlay";
+    if (ds.includes("philosophy") && ds.includes("software")) return "appropriation";
+    if (ds.includes("software") && ds.includes("ecology")) return "bio_fusion";
+    if (ds.includes("architecture") && ds.includes("ecology")) return "eco_construct";
+    if (ds.includes("philosophy") && ds.includes("ecology")) return "deep_ecology";
     return "mix";
   }
 
   function edgeColor(type) {
     switch(type) {
-      case "affinity":       return PALETTE.software;      // same colour as domain; overridden per node
+      case "affinity":       return [14, 165, 233];
       case "fusion":         return PALETTE.cross_sa;
       case "overlay":        return PALETTE.cross_ap;
       case "appropriation":  return PALETTE.cross_sp;
-      default:               return PALETTE.cross_all;
+      case "bio_fusion":     return PALETTE.cross_se;
+      case "eco_construct":  return PALETTE.cross_ae;
+      case "deep_ecology":   return PALETTE.cross_pe;
+      default:               return PALETTE.cross_multi;
     }
   }
 
@@ -213,7 +224,11 @@ export function render(gleam_list) {
             a.energy = Math.min(1, a.energy + 0.08);
             b.energy = Math.min(1, b.energy + 0.08);
             if (a.domain !== b.domain) {
-              pushLog(`${a.name_ja} × ${b.name_ja} → ${type === "fusion" ? "融合" : type === "overlay" ? "重ね合わせ" : type === "appropriation" ? "略奪" : "接続"}`);
+              const label_map = {
+                fusion: "融合", overlay: "重ね合わせ", appropriation: "略奪",
+                bio_fusion: "生態融合", eco_construct: "生態構築", deep_ecology: "深い生態学", mix: "接続"
+              };
+              pushLog(`${a.name_ja} × ${b.name_ja} → ${label_map[type] || "接続"}`);
             }
           }
         }

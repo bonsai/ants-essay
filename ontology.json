@@ -3,9 +3,10 @@
     "domains": [
       "software",
       "architecture",
-      "philosophy"
+      "philosophy",
+      "ecology"
     ],
-    "count": 108
+    "count": 148
   },
   "concepts": [
     {
@@ -1087,296 +1088,407 @@
       "description": "テクスト間の相互参照と網目構造",
       "layer": 4,
       "source": "Kristeva"
+    },
+    {
+      "id": 109,
+      "domain": "ecology",
+      "key": "ecosystem",
+      "name_ja": "生態系",
+      "name_en": "Ecosystem",
+      "description": "生物群集と環境が相互作用する動的システム",
+      "layer": 3,
+      "source": "Tansley 1935"
+    },
+    {
+      "id": 110,
+      "domain": "ecology",
+      "key": "food_chain",
+      "name_ja": "食物連鎖",
+      "name_en": "Food Chain",
+      "description": "生物間のエネルギー伝達の連鎖的関係",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 111,
+      "domain": "ecology",
+      "key": "biota",
+      "name_ja": "生物相",
+      "name_en": "Biota",
+      "description": "特定の地域・時期に生息する生物の総体",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 112,
+      "domain": "ecology",
+      "key": "habitat",
+      "name_ja": "生息地",
+      "name_en": "Habitat",
+      "description": "種が生存・繁殖するための物理的環境",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 113,
+      "domain": "ecology",
+      "key": "niche",
+      "name_ja": "ニッチ",
+      "name_en": "Niche",
+      "description": "種が占める環境条件と機能的地位の総体",
+      "layer": 3,
+      "source": "Grinnell / Elton"
+    },
+    {
+      "id": 114,
+      "domain": "ecology",
+      "key": "niche_partitioning",
+      "name_ja": "生態位的分離",
+      "name_en": "Niche Partitioning",
+      "description": "複数種が資源を分け合って共存する機構",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 115,
+      "domain": "ecology",
+      "key": "mutualism",
+      "name_ja": "相利共生",
+      "name_en": "Mutualism",
+      "description": "互いに利益を得る種間関係",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 116,
+      "domain": "ecology",
+      "key": "commensalism",
+      "name_ja": "偏利共生",
+      "name_en": "Commensalism",
+      "description": "一方が利益を得て他方に影響を与えない関係",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 117,
+      "domain": "ecology",
+      "key": "parasitism",
+      "name_ja": "寄生",
+      "name_en": "Parasitism",
+      "description": "一方が宿主から栄養を得て宿主に害を与える関係",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 118,
+      "domain": "ecology",
+      "key": "competitive_exclusion",
+      "name_ja": "競争排除の原理",
+      "name_en": "Competitive Exclusion Principle",
+      "description": "同一ニッチの種は共存できず一方が排除される",
+      "layer": 3,
+      "source": "Gause"
+    },
+    {
+      "id": 119,
+      "domain": "ecology",
+      "key": "carrying_capacity",
+      "name_ja": "キャリング・キャパシティ",
+      "name_en": "Carrying Capacity",
+      "description": "環境が維持可能な個体群の最大サイズ",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 120,
+      "domain": "ecology",
+      "key": "succession",
+      "name_ja": "遷移",
+      "name_en": "Succession",
+      "description": "群落が環境変化に応じて段階的に遷る動的プロセス",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 121,
+      "domain": "ecology",
+      "key": "climax_community",
+      "name_ja": "頂極群落",
+      "name_en": "Climax Community",
+      "description": "遷移の最終段階で安定した群落",
+      "layer": 3,
+      "source": "Clements"
+    },
+    {
+      "id": 122,
+      "domain": "ecology",
+      "key": "nutrient_cycle",
+      "name_ja": "物質循環",
+      "name_en": "Nutrient Cycle",
+      "description": "生態系内での栄養素の循環と再利用",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 123,
+      "domain": "ecology",
+      "key": "energy_flow",
+      "name_ja": "エネルギー・フロー",
+      "name_en": "Energy Flow",
+      "description": "生態系内で一方向に流れ減衰するエネルギー",
+      "layer": 3,
+      "source": "Lindeman"
+    },
+    {
+      "id": 124,
+      "domain": "ecology",
+      "key": "ecosystem_services",
+      "name_ja": "生態系サービス",
+      "name_en": "Ecosystem Services",
+      "description": "生態系が人間社会に提供する恩恵の総称",
+      "layer": 3,
+      "source": "MEA 2005"
+    },
+    {
+      "id": 125,
+      "domain": "ecology",
+      "key": "biodiversity",
+      "name_ja": "生物多様性",
+      "name_en": "Biodiversity",
+      "description": "生命のあらゆるレベルの多様性",
+      "layer": 3,
+      "source": "Wilson"
+    },
+    {
+      "id": 126,
+      "domain": "ecology",
+      "key": "genetic_diversity",
+      "name_ja": "遺伝的多様性",
+      "name_en": "Genetic Diversity",
+      "description": "同一種内の遺伝子の多様性",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 127,
+      "domain": "ecology",
+      "key": "species_diversity",
+      "name_ja": "種多様性",
+      "name_en": "Species Diversity",
+      "description": "地域に生息する種の豊富さと均等度",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 128,
+      "domain": "ecology",
+      "key": "ecosystem_diversity",
+      "name_ja": "生態系多様性",
+      "name_en": "Ecosystem Diversity",
+      "description": "生態系タイプの多様性",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 129,
+      "domain": "ecology",
+      "key": "invasive_species",
+      "name_ja": "侵略的外来種",
+      "name_en": "Invasive Species",
+      "description": "新たな生態系で生態的・経済的被害を与える外来種",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 130,
+      "domain": "ecology",
+      "key": "native_species",
+      "name_ja": "在来種",
+      "name_en": "Native Species",
+      "description": "その地域の進化史に根ざした固有の種",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 131,
+      "domain": "ecology",
+      "key": "conservation_ecology",
+      "name_ja": "保全生態学",
+      "name_en": "Conservation Ecology",
+      "description": "絶滅リスクの低減と生息地保全を目指す学問",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 132,
+      "domain": "ecology",
+      "key": "restoration_ecology",
+      "name_ja": "回復生態学",
+      "name_en": "Restoration Ecology",
+      "description": "破壊された生態系の回復・再生を研究する学問",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 133,
+      "domain": "ecology",
+      "key": "keystone_species",
+      "name_ja": "キーストン種",
+      "name_en": "Keystone Species",
+      "description": "他種への影響が質的に大きい種",
+      "layer": 3,
+      "source": "Paine"
+    },
+    {
+      "id": 134,
+      "domain": "ecology",
+      "key": "indicator_species",
+      "name_ja": "指標種",
+      "name_en": "Indicator Species",
+      "description": "環境状態を示すために利用される種",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 135,
+      "domain": "ecology",
+      "key": "foundation_species",
+      "name_ja": "基礎種",
+      "name_en": "Foundation Species",
+      "description": "群落の構造を形成し生息地を提供する種",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 136,
+      "domain": "ecology",
+      "key": "trophic_cascade",
+      "name_ja": "トロフィック・カスケード",
+      "name_en": "Trophic Cascade",
+      "description": "食物連鎖を伝わる間接的な上から下への影響",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 137,
+      "domain": "ecology",
+      "key": "bottom_up_top_down",
+      "name_ja": "ボトムアップ対トップダウン",
+      "name_en": "Bottom-Up vs Top-Down",
+      "description": "資源制約と捕食者制御の相対的優位性",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 138,
+      "domain": "ecology",
+      "key": "community",
+      "name_ja": "群集",
+      "name_en": "Community",
+      "description": "同一生態系内で相互作用する複数種の集合",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 139,
+      "domain": "ecology",
+      "key": "population",
+      "name_ja": "個体群",
+      "name_en": "Population",
+      "description": "同一種の個体が同一地域に集まる群れ",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 140,
+      "domain": "ecology",
+      "key": "metapopulation",
+      "name_ja": "メタ個体群",
+      "name_en": "Metapopulation",
+      "description": "複数の局所個体群が移入・絶滅を繰り返す集合",
+      "layer": 3,
+      "source": "Levins"
+    },
+    {
+      "id": 141,
+      "domain": "ecology",
+      "key": "r_k_selection",
+      "name_ja": "r/K選択説",
+      "name_en": "r/K Selection Theory",
+      "description": "不安定環境での多産と安定環境での少数育成の戦略",
+      "layer": 3,
+      "source": "MacArthur & Wilson"
+    },
+    {
+      "id": 142,
+      "domain": "ecology",
+      "key": "swarm_intelligence",
+      "name_ja": "群れ知能",
+      "name_en": "Swarm Intelligence",
+      "description": "単純な個体の相互作用から生じる集合的智能",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 143,
+      "domain": "ecology",
+      "key": "emergence",
+      "name_ja": "創発（湧現）",
+      "name_en": "Emergence",
+      "description": "部分の相互作用から全体としての新性質が生じる現象",
+      "layer": 2,
+      "source": ""
+    },
+    {
+      "id": 144,
+      "domain": "ecology",
+      "key": "self_organization",
+      "name_ja": "自己組織化",
+      "name_en": "Self-Organization",
+      "description": "外部からの指示なしに秩序が生成されるプロセス",
+      "layer": 2,
+      "source": ""
+    },
+    {
+      "id": 145,
+      "domain": "ecology",
+      "key": "homeostasis",
+      "name_ja": "ホメオスタシス",
+      "name_en": "Homeostasis",
+      "description": "生態系が内部環境を一定に保つ動的平衡機構",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 146,
+      "domain": "ecology",
+      "key": "feedback_loop",
+      "name_ja": "フィードバック・ループ",
+      "name_en": "Feedback Loop",
+      "description": "出力が入力に影響を与える因果循環回路",
+      "layer": 3,
+      "source": ""
+    },
+    {
+      "id": 147,
+      "domain": "ecology",
+      "key": "resilience",
+      "name_ja": "レジリエンス",
+      "name_en": "Resilience",
+      "description": "撹乱後に元の状態へ回復する能力",
+      "layer": 3,
+      "source": "Holling"
+    },
+    {
+      "id": 148,
+      "domain": "ecology",
+      "key": "vulnerability",
+      "name_ja": "脆弱性",
+      "name_en": "Vulnerability",
+      "description": "撹乱に対する感受性と適応能力の欠如",
+      "layer": 3,
+      "source": ""
     }
   ],
-  "relations": [
-    {
-      "id": 1,
-      "from_id": 12,
-      "to_id": 2,
-      "relation_type": "influence"
-    },
-    {
-      "id": 2,
-      "from_id": 2,
-      "to_id": 1,
-      "relation_type": "opposes"
-    },
-    {
-      "id": 3,
-      "from_id": 1,
-      "to_id": 3,
-      "relation_type": "implements"
-    },
-    {
-      "id": 4,
-      "from_id": 1,
-      "to_id": 4,
-      "relation_type": "implements"
-    },
-    {
-      "id": 5,
-      "from_id": 1,
-      "to_id": 5,
-      "relation_type": "implements"
-    },
-    {
-      "id": 6,
-      "from_id": 10,
-      "to_id": 9,
-      "relation_type": "influence"
-    },
-    {
-      "id": 7,
-      "from_id": 37,
-      "to_id": 11,
-      "relation_type": "analogy"
-    },
-    {
-      "id": 8,
-      "from_id": 7,
-      "to_id": 8,
-      "relation_type": "relates"
-    },
-    {
-      "id": 9,
-      "from_id": 18,
-      "to_id": 19,
-      "relation_type": "implements"
-    },
-    {
-      "id": 10,
-      "from_id": 20,
-      "to_id": 18,
-      "relation_type": "belongs_to"
-    },
-    {
-      "id": 11,
-      "from_id": 23,
-      "to_id": 24,
-      "relation_type": "opposes"
-    },
-    {
-      "id": 12,
-      "from_id": 25,
-      "to_id": 26,
-      "relation_type": "relates"
-    },
-    {
-      "id": 13,
-      "from_id": 27,
-      "to_id": 5,
-      "relation_type": "relates"
-    },
-    {
-      "id": 14,
-      "from_id": 28,
-      "to_id": 29,
-      "relation_type": "relates"
-    },
-    {
-      "id": 15,
-      "from_id": 21,
-      "to_id": 32,
-      "relation_type": "opposes"
-    },
-    {
-      "id": 16,
-      "from_id": 34,
-      "to_id": 35,
-      "relation_type": "relates"
-    },
-    {
-      "id": 17,
-      "from_id": 70,
-      "to_id": 5,
-      "relation_type": "analogy"
-    },
-    {
-      "id": 18,
-      "from_id": 70,
-      "to_id": 62,
-      "relation_type": "belongs_to"
-    },
-    {
-      "id": 19,
-      "from_id": 70,
-      "to_id": 63,
-      "relation_type": "belongs_to"
-    },
-    {
-      "id": 20,
-      "from_id": 37,
-      "to_id": 44,
-      "relation_type": "relates"
-    },
-    {
-      "id": 21,
-      "from_id": 38,
-      "to_id": 39,
-      "relation_type": "relates"
-    },
-    {
-      "id": 22,
-      "from_id": 40,
-      "to_id": 63,
-      "relation_type": "relates"
-    },
-    {
-      "id": 23,
-      "from_id": 41,
-      "to_id": 73,
-      "relation_type": "analogy"
-    },
-    {
-      "id": 24,
-      "from_id": 42,
-      "to_id": 64,
-      "relation_type": "relates"
-    },
-    {
-      "id": 25,
-      "from_id": 43,
-      "to_id": 45,
-      "relation_type": "relates"
-    },
-    {
-      "id": 26,
-      "from_id": 60,
-      "to_id": 61,
-      "relation_type": "relates"
-    },
-    {
-      "id": 27,
-      "from_id": 62,
-      "to_id": 65,
-      "relation_type": "relates"
-    },
-    {
-      "id": 28,
-      "from_id": 59,
-      "to_id": 58,
-      "relation_type": "relates"
-    },
-    {
-      "id": 29,
-      "from_id": 69,
-      "to_id": 42,
-      "relation_type": "belongs_to"
-    },
-    {
-      "id": 30,
-      "from_id": 73,
-      "to_id": 74,
-      "relation_type": "relates"
-    },
-    {
-      "id": 31,
-      "from_id": 73,
-      "to_id": 75,
-      "relation_type": "opposes"
-    },
-    {
-      "id": 32,
-      "from_id": 79,
-      "to_id": 76,
-      "relation_type": "relates"
-    },
-    {
-      "id": 33,
-      "from_id": 80,
-      "to_id": 81,
-      "relation_type": "relates"
-    },
-    {
-      "id": 34,
-      "from_id": 82,
-      "to_id": 81,
-      "relation_type": "opposes"
-    },
-    {
-      "id": 35,
-      "from_id": 83,
-      "to_id": 81,
-      "relation_type": "relates"
-    },
-    {
-      "id": 36,
-      "from_id": 85,
-      "to_id": 86,
-      "relation_type": "relates"
-    },
-    {
-      "id": 37,
-      "from_id": 86,
-      "to_id": 87,
-      "relation_type": "relates"
-    },
-    {
-      "id": 38,
-      "from_id": 88,
-      "to_id": 89,
-      "relation_type": "relates"
-    },
-    {
-      "id": 39,
-      "from_id": 89,
-      "to_id": 90,
-      "relation_type": "relates"
-    },
-    {
-      "id": 40,
-      "from_id": 90,
-      "to_id": 91,
-      "relation_type": "relates"
-    },
-    {
-      "id": 41,
-      "from_id": 93,
-      "to_id": 92,
-      "relation_type": "opposes"
-    },
-    {
-      "id": 42,
-      "from_id": 93,
-      "to_id": 94,
-      "relation_type": "relates"
-    },
-    {
-      "id": 43,
-      "from_id": 97,
-      "to_id": 98,
-      "relation_type": "relates"
-    },
-    {
-      "id": 44,
-      "from_id": 99,
-      "to_id": 101,
-      "relation_type": "relates"
-    },
-    {
-      "id": 45,
-      "from_id": 100,
-      "to_id": 103,
-      "relation_type": "relates"
-    },
-    {
-      "id": 46,
-      "from_id": 104,
-      "to_id": 105,
-      "relation_type": "opposes"
-    },
-    {
-      "id": 47,
-      "from_id": 104,
-      "to_id": 108,
-      "relation_type": "opposes"
-    },
-    {
-      "id": 48,
-      "from_id": 107,
-      "to_id": 108,
-      "relation_type": "relates"
-    }
-  ]
+  "relations": []
 }
