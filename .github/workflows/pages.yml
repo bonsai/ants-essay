@@ -23,6 +23,7 @@ jobs:
           mkdir -p dist/gleam
           cp -r gleam-visual/build/dev/javascript/* dist/gleam/
           cp gleam-visual/index.html dist/index.html
+          cp essay_v2.html dist/essay_v2.html
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
